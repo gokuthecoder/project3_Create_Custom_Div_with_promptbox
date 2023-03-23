@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>BUILD A DIV BOX</title>
+</head>
+<body>
+    <div id="box"></div>
+
+    <script>
+       var txt = prompt('ENTER TEXT HERE')
+       document.getElementById('box').innerHTML=txt
+
+       var txtcolor = prompt('ENTER TEXT COLOR ')
+       document.getElementById('box').style.color=txtcolor
+
+       var fontfamily = prompt('ENTER FONT [e.g  Courgette]')
+       document.getElementById('box').style.fontFamily=fontfamily
+
+       var textalign = prompt('TEXT POSITION (center, left, right)')
+       document.getElementById('box').style.textAlign=textalign
+
+       var bgc = prompt('ENTER BACKGROUND COLOR')
+       document.getElementById('box').style.backgroundColor=bgc
+
+       var height1 = prompt('ENTER BOX HEIGHT')
+       document.getElementById('box').style.height=height1
+
+       var border1 = prompt('ENTER BORDER ')
+       document.getElementById('box').style.border=border1
+
+       var borderradius1 = prompt('ENTER BOX BORDER RADIUS')
+       document.getElementById('box').style.borderRadius=borderradius1
+    </script>
+</body>
+</html>
